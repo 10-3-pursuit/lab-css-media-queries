@@ -72,6 +72,7 @@ nav a:hover {
 */
 
 .splash {
+  display: none;
   background-image: url("./images/ales-nesetril-unsplash.jpg");
   background-position: 50% 50%;
   background-size: 100%;
@@ -91,7 +92,7 @@ nav a:hover {
 main {
   margin: 3rem auto;
 
-  width: 70%;
+  width: 90%;
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -133,7 +134,7 @@ footer {
   padding: 50px 15% 25px;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 footer h4 {
