@@ -178,7 +178,8 @@ footer {
 
 @media(max-width: 767px) {
 header {
-    grid-template-columns: 1fr;}
+    grid-template-columns: 1fr;
+}
 
 main {
   grid-template-columns: 1fr;
