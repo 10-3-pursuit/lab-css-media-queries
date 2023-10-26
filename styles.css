@@ -164,7 +164,7 @@ footer a:hover {
 
 /* Media queries */
 
-@media (max-width: 1279px) and (min-width: 768px) {
+@media (max-width: 1279px) {
   main {
     width: 90%;
   }
@@ -194,8 +194,5 @@ footer a:hover {
   }
   footer h4 {
     border-bottom: none;
-  }
-  .splash {
-    display: none;
   }
 }
