@@ -193,7 +193,7 @@ footer a:hover {
     list-style: none;
   }
   footer h4 {
-    border: none;
+    border-bottom: none;
   }
   .splash {
     display: none;
