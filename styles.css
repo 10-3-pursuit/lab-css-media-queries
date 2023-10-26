@@ -187,7 +187,6 @@ footer a:hover {
   footer {
     padding: 25px;
     text-align: center;
-    grid-template-columns: repeat(2, 1fr);
   }
   footer ul {
     list-style: none;
@@ -195,4 +194,5 @@ footer a:hover {
   footer h4 {
     border-bottom: none;
   }
+
 }
