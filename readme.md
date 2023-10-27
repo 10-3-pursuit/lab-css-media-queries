@@ -8,7 +8,7 @@ TekNews has a great looking website but it was only built for the desktop! Updat
 
 ## Lab Setup
 
-### Getting started
+### Getting startedh2
 
 1. Fork and clone this repository.
 
