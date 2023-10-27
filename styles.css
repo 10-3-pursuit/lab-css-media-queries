@@ -176,3 +176,17 @@ footer a:hover {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (max-width: 768px) {
+  header,
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+    list-style: none;
+    border-bottom: none;
+  }
+}
