@@ -165,32 +165,43 @@ footer a:hover {
 /* Media queries */
 
 @media (max-width: 1279px) {
+  /* step 1 Hide the `.splash` section by changing the `display` property to `none`. */
   .splash {
     display: none;
   }
+  /* step 2 Set the width of the `main` element to be `90%`. */
   main {
     width: 90%;
   }
+  /* step 3 Update the `footer` element so that instead of three columns it is set to have two. */
   footer {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media (max-width: 767px) {
+  /* step 4 Update the `header` element so that instead of two columns it is set to have one. */
   header {
     grid-template-columns: 1fr;
   }
+  /* step 5a Update the main element so that instead of two columns it is set to have one. */
+  /* step 5b Change the gap on the main element so that it has a gap between each row of 50px. The gap between columns should be 0. */
   main {
     grid-template-columns: 1fr;
     gap: 50px 0;
     /* 50px for gap between rows 0 for gap between columns */
   }
+  /* step 6a Update the footer element so it has a padding of 25px all around. */
+  /* step 6b Update the footer element so that all of the text inside of it is aligned to the center. */
   footer {
     padding: 25px;
     text-align: center;
   }
+  /* Step 7 Update the footer unordered list elements so that none of them have a list-style. */
   footer ul {
     list-style: none;
   }
+  /* step 8  Update the footer heading so that it no longer has a border along the bottom. */
   footer h4 {
     border-bottom: none;
   }
